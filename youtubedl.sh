@@ -16,9 +16,8 @@ L='\033[7m' > /dev/null 2>&1; #Lines
 X='\033[0m' > /dev/null 2>&1; #Closer
 # ----------------------------------------
 
-echo -e apt update -y $N
-
-echo -e apt install figlet -y $N
+apt update -y
+apt install figlet -y
 
 figlet "Youtube-DL" 
 
