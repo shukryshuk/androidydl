@@ -19,7 +19,20 @@ X='\033[0m' > /dev/null 2>&1; #Closer
 apt update -y
 apt install figlet -y
 
--e $N
+
+
+
+
+echo ""
+echo ""
+
+
+
+
+echo ""
+echo ""
+
+
 
 figlet "Youtube-DL" 
 
@@ -53,17 +66,15 @@ echo -e $Y $L "Creating youtube-dl config..." $N
 sleep 1.5
 
 echo -e $Y $L "Getting config file..." $N
-		wget https://www.dropbox.com/s/mcyhxmrqpi3f9y3/config?dl=1 -P /data/data/com.termux/files/home/.config/youtube-dl
+		wget https://raw.githubusercontent.com/shukryshuk/androidydl/master/config -P /data/data/com.termux/files/home/.config/youtube-dl
 
 echo -e $Y $L "Creating bin folder..." $N
 		mkdir ~/bin
 sleep 1.5
 
 echo -e $Y $L "Getting files..." $N
-		wget https://www.dropbox.com/s/oi3moc9utbzal2l/termux-url-opener?dl=1 -P /data/data/com.termux/files/home/bin
-		mv /data/data/com.termux/files/home/.config/youtube-dl/config?dl=1 /data/data/com.termux/files/home/.config/youtube-dl/config
-		mv /data/data/com.termux/files/home/bin/termux-url-opener?dl=1 /data/data/com.termux/files/home/bin/termux-url-opener
-
+		wget https://raw.githubusercontent.com/shukryshuk/androidydl/master/termux-url-opener -P /data/data/com.termux/files/home/bin
+		
 echo -e $Y $L "Finishing configuration..." $N
 sleep 5
 
