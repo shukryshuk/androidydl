@@ -19,6 +19,8 @@ X='\033[0m' > /dev/null 2>&1; #Closer
 apt update -y
 apt install figlet -y
 
+-e $N
+
 figlet "Youtube-DL" 
 
 echo -e $Y $L"YouTube-dl Installer By"  $R "Shuk" $N
