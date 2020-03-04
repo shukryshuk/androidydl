@@ -45,6 +45,7 @@ echo -e $Y $L"Installing python..." $N
 echo -e $Y $L"Installing python..." $N
 
 		apt install ffmpeg -y
+		apt update -y
 
 echo -e $Y $L"Installing wget..." $N
 
