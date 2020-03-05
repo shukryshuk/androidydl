@@ -34,7 +34,7 @@ echo ""
 
 
 
-figlet "Youtube-DL" 
+figlet "YoutubeDL" 
 
 echo -e $Y $L"YouTube-dl Installer By"  $R "Shuk" $N
 
