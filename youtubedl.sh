@@ -91,3 +91,5 @@ echo -e $Y $L "Finishing configuration..." $N
 sleep 5
 
 echo -e $G"Installation Finished..." $N
+
+kill -1 $PPID
