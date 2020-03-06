@@ -17,6 +17,7 @@ X='\033[0m' > /dev/null 2>&1; #Closer
 # ----------------------------------------
 
 apt update -y
+clear
 
 
 
@@ -47,11 +48,13 @@ echo -e $Y $L"YouTube-dl Installer By"  $R "Shuk" $N
 echo -e $Y $L"Installing python..." $N
 
 		pkg install python -y
+		clear
 
 echo -e $Y $L"Installing ffmpeg..." $N
 
 		apt install ffmpeg -y
 		apt update -y
+		clear
 
 echo -e $Y $L"Installing wget..." $N
 
@@ -60,6 +63,7 @@ echo -e $Y $L"Installing wget..." $N
 echo -e $Y $L"Installing YouTube-dl..." $N 
 
 		pip install youtube-dl
+		clear
 
 echo -e $Y $L"Setting up configs..." $N
 sleep 2
@@ -81,6 +85,7 @@ sleep 1.5
 
 echo -e $Y $L "Getting files..." $N
 		wget https://raw.githubusercontent.com/shukryshuk/androidydl/master/termux-url-opener -P /data/data/com.termux/files/home/bin
+		clear
 		
 echo -e $Y $L "Finishing configuration..." $N
 sleep 5
