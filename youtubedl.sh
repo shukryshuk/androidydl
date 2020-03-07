@@ -20,21 +20,6 @@ apt update -y
 clear
 
 
-
-
-
-
-echo ""
-echo ""
-
-
-
-
-echo ""
-echo ""
-
-
-
 echo -e $R"__   __          _         _          ____  _" $N 
 echo -e $R"\ \ / /__  _   _| |_ _   _| |__   ___|  _ \| |" $N
 echo -e $R" \ V / _ \| | | | __| | | | '_ \ / _ \ | | | |" $N
